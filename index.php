@@ -1,16 +1,8 @@
 <?php 
 
-function timespeed($s, $v)
-{
-    $time_=0;
-    if($v!=0)
-        $time_=$s/$v;
-    
-    return "Время прохождения пути $s км со скоростью $v км/ч : ".$time_." ч ";
-    
-}
+include "src/timespeed.php";
 
-$s=100;
-$v=50;
+$ts = new walerij\timespeed();
 
-echo timespeed($s, $v);
+
+echo $ts->timespeed(100, 20);

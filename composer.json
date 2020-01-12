@@ -1,0 +1,13 @@
+{
+    "name": "walerij/timespeed",
+    "description": "test time",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "git-valeriy",
+            "email": "git.valera@bk.ru"
+        }
+    ],
+    "require": {}
+}
